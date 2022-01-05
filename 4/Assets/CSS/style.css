@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    height: 70px;
+}
+.logo-1 {
+    float: left;
+    margin-left: 30px;
+    margin-right: 20%;
+}
+.menu {
+    display: inline-block; /*if it wasn't here, the margin collapse will occur*/
+    list-style-type: none;
+    height: 100%;
+}
+.nav-items {
+    color: rgb(66, 178, 212);
+    box-sizing: content-box;
+    padding: 25px 10px 10px 10px;
+    float: left;
+    margin: 0 10px;
+    height: 100%;
+}
+.nav-items:hover {
+    color: gold;
+    border-top: gold 5px solid;
+    padding: 20px 10px 10px 10px;
+}
+.all-searches-label{
+    background-color: none;
+    border: none;
+    padding: 25px 10px;
+    border-right: rgb(197, 197, 197) 2px solid;
+    float: right;
+}
+.login-label {
+    padding: 25px 10px 10px 10px;
+    float: right;
+    margin-right: 20px;
+}
+.clearfix {
+    clear: both;
+}
+
+/* blue bar */
+.blue-bar-1 {
+    width: 100%;
+    height: 70px;
+    background-color: rgb(66, 178, 212);
+}
+.blue-bar-1 h2 {
+    margin-left: 30px;
+    font-size: 1.7rem;
+    padding: 20px 10px 10px 10px;
+    color: white;
+    float: left;
+}
+.blue-bar-1 h4 {
+    margin-right: 30px;
+    padding: 25px 10px;
+    color: white;
+    float: right;
+}
+/* intro */
+.intro {
+    margin: 50px;
+}
+.intro h1 {
+    padding: 10px;
+}
+/* album */
+.album {
+    width: 70%;
+    margin: 0 auto;
+    height: 10px;
+}
+.pic {
+    background-color: white;
+    box-shadow: 0 4px 10px 0 rgb(0 0 0/20%), 0 4px 20px 0 rgb(0 0 0 / 19%);
+    width: 30%;
+    height: 290px;
+    margin: 10px 10px;
+    float: left;
+}
+.pic img {
+    object-fit: cover;
+}
+.pic h4 {
+    color: gray;
+    padding: 7px;
+}
+.view-more {
+    margin: 20px 0 80px;
+    font-size: 16px;
+    padding: 10px 20px;
+    background-color: yellowgreen;
+    border: none;
+    box-shadow: 0 4px 10px 0 rgb(0 0 0/20%), 0 4px 20px 0 rgb(0 0 0 / 19%);
+    color: white;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+/* blue bar 2 */
+.blue-bar-2 {
+    position: relative;
+    width: 100%;
+    height: 70px;
+    background-color: rgb(66, 178, 212);
+}
+
+.blue-bar-2 h2 {
+    margin-left: 100px;
+    font-weight: lighter;
+    color: white;
+    float: left;
+    font-size: 1.7rem;
+    padding: 20px 10px 10px 10px;
+}
+.blue-bar-2 button {
+    float: right;
+    margin-right: 100px;
+    margin-top: 15px;
+    font-size: 16px;
+    padding: 10px 20px;
+    background-color: yellowgreen;
+    border: none;
+    box-shadow: 0 4px 10px 0 rgb(0 0 0/20%), 0 4px 20px 0 rgb(0 0 0 / 19%);
+    color: white;
+}
+.blue-bar-2 input{
+    height: 35px;
+    float: right;
+    margin-right: 10px;
+    border: none;
+    border-radius: 0;
+    margin-top: 17px;
+}
+#email {
+    width: 300px;
+}
+/* end white-bar */
+.end-white-bar {
+    color: rgb(77, 77, 77);
+    width: 100%;
+}
+.logo-2 h6{
+    font-size: 8px;
+}
+.logo-2 {
+    width: 20%;
+    margin-left: 150px;
+}
+.columns {
+    margin-top: 40px;
+    float: left;
+    margin-right: 5%;
+}
+/* the last blue bar */
+.blue-bar-3 {
+    text-align: center;
+    margin-top: 50px;
+    width: 100%;
+    height: 30px;
+    color: white;
+    font-size: 20px;
+    background-color: rgb(66, 178, 212);
+}
+.blue-bar-3 h6 {
+    font-weight: lighter;
+    padding: 5px;
+}
